@@ -1,7 +1,5 @@
-# TikTok-Chat-Reader
+![image](https://github.com/SafeMoonArmy/Tiktok-Live-interactive/assets/93979612/d7e19e30-aff8-4709-afc8-efe3ab83ad0b)# TikTok-Chat-Reader
 A chat reader for <a href="https://www.tiktok.com/live">TikTok LIVE</a> utilizing <a href="https://github.com/zerodytrash/TikTok-Live-Connector">TikTok-Live-Connector</a> and <a href="https://socket.io/">Socket.IO</a> to forward the data to the client. This demo project uses the unofficial TikTok API to retrieve chat comments, gifts and other events from TikTok LIVE.
-
-## Demo: https://tiktok-chat-reader.zerody.one/
 
 ## Installation
 To run the chat reader locally, follow these steps:
@@ -22,3 +20,7 @@ This will use the server backend of the [demo site](https://tiktok-chat-reader.z
 
 ![asasa](https://github.com/SafeMoonArmy/Tiktok-Live-interactive/assets/93979612/2988753f-d82d-46aa-848e-0cd393836e6f)
 ![sasas](https://github.com/SafeMoonArmy/Tiktok-Live-interactive/assets/93979612/452e6760-4b36-4446-abf5-97379b5d2564)
+
+Big thanks to zerody 
+
+if you need a URL version contact me here Darkfivegeek@gmail.com 
