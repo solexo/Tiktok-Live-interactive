@@ -20,4 +20,5 @@ This will use the server backend of the [demo site](https://tiktok-chat-reader.z
 
 ## Screenshot
 
-![TikTok LIVE Chat Reader (Demo)](https://user-images.githubusercontent.com/59258980/153956504-c585b14b-a50e-43f0-a994-64adcaface2e.png)
+![asasa](https://github.com/SafeMoonArmy/Tiktok-Live-interactive/assets/93979612/2988753f-d82d-46aa-848e-0cd393836e6f)
+![sasas](https://github.com/SafeMoonArmy/Tiktok-Live-interactive/assets/93979612/452e6760-4b36-4446-abf5-97379b5d2564)
