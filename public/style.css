@@ -1,0 +1,151 @@
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Set the background color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f09d05; /* Set the color of the scrollbar handle */
+    border-radius: 10px; /* Optional: Add rounded corners to the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ff4d00; /* Set a different color when the handle is hovered */
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 800px;
+    background-color: black; /* Set the background color to black for the entire page */
+    color: white; /* Set the default font color to white */
+    margin: 0; /* Remove default body margin */
+    overflow: hidden; /* Prevent the page from scrolling */
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #58a6ff;
+}
+
+.head {
+    margin-bottom: 15px;
+}
+
+.subTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.usernamelink {
+    color: #f09d05;
+    text-decoration: none;
+}
+
+#roomUserText,
+#roomStats {
+    width: 100%;
+    text-align: right;
+}
+
+#roomStats b {
+    margin-right: 20px;
+}
+
+.splitchattable,
+.splitstatetable {
+    width: 100%;
+}
+
+.containerheader {
+    text-align: center;
+}
+
+.chatcontainer,
+.giftcontainer,
+.eventcontainer {
+    overflow-y: scroll;
+    height: calc(100vh - 120px);
+    word-wrap: break-word;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.giftcontainer,
+.chatcontainer {
+    min-width: 500px;
+    max-width: calc(100vw - 430px);
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the font color to white */
+    font-size: 30px; 
+}
+
+.miniprofilepicture,
+.gifticon {
+    border-radius: 50%;
+    border: 5px solid #f09d05;
+    box-shadow: 0 0 20px rgba(240, 157, 5, 0.7);
+    animation: pulse 2s infinite; /* Adjust the animation duration as needed */
+    max-width: 300px; /* Increase the max-width to make the images larger */
+    height: auto; /* Ensure responsive images */
+}
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 20px rgba(240, 157, 5, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(240, 157, 5, 0.9); /* Increase the size of the glow */
+    }
+    500% {
+        box-shadow: 0 0 20px rgba(240, 157, 5, 0.7);
+    }
+}
+
+/* Gift Container Styles */
+.giftcontainer {
+    overflow-y: scroll;
+    height: calc(100vh - 240px);
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    animation: pulse 2s infinite;   
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 20px rgb(0, 68, 255);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(43, 255, 0, 0.9), 0 0 20px rgba(255, 153, 0, 0.7); /* Multicolor gradient */
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(3, 105, 8, 0.507);
+    }
+}
+
+/* Gift Item Styles */
+.giftcontainer > div {
+    background-color: rgba(240, 157, 5, 0.3); /* Set the background color with transparency */
+    border-radius: 10px; /* Add rounded corners to the container */
+    margin: 10px 0; /* Add some spacing between gift items */
+    padding: 10px; /* Add padding for better visual appearance */
+}
+
+/* Thank You Message Styles */
+.thankyou-message {
+    color: #2fb816; /* Set the color for the "thank you" message */
+    margin-top: 5px; /* Adjust the top margin as needed */
+}
